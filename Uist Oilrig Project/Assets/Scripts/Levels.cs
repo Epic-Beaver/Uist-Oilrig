@@ -21,13 +21,13 @@ public class Levels : MonoBehaviour
     {
         switch (level)
         {
-            case 1: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 2: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 3: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 4: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 5: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 6: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            //case 7: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
+            case 1: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            case 2: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            case 3: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            case 4: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            case 5: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            case 6: SceneManager.LoadScene("OilRigVesselSelect"); break;
+            //case 7: SceneManager.LoadScene("OilRigVesselSelect"); break;
             default:  break;
         }
     }

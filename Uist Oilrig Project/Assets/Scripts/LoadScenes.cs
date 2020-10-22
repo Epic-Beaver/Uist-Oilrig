@@ -32,4 +32,9 @@ public class LoadScenes : MonoBehaviour
     {
         SceneManager.LoadScene("OilRigLevelSelect");
     }
+
+    public void LoadBackScene( string name )
+    {
+        SceneManager.LoadScene(name);
+    }
 }
