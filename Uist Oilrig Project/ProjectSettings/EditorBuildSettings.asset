@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/OilRigStart.unity
+    guid: 5f5b9b1edeef1334daf9607612c41871
+  - enabled: 1
+    path: Assets/Scenes/OilRigCredits.unity
+    guid: 287ca2c133560a14ea48828b4b0e402b
+  - enabled: 1
+    path: Assets/Scenes/OilRigLevelSelect.unity
+    guid: 52991dedb06d7f8448bb07132da9e208
+  - enabled: 1
+    path: Assets/Scenes/OilRigSample_AddPlayerMovement.unity
+    guid: 2b7440dab49ddb7438d6ad2329b3ab84
   m_configObjects: {}
