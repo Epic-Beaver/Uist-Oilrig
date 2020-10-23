@@ -17,6 +17,7 @@ public class Pickup_Entity : MonoBehaviour
 
     public GameObject Claw;
     private AudioSource audioSource;
+    public int co2Time = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -34,12 +35,14 @@ public class Pickup_Entity : MonoBehaviour
 
         if(targetX - transform.position.x > maxHorSpeed)
         {
-            targetX = transform.position.x + maxHorSpeed;      
+            targetX = transform.position.x + maxHorSpeed;
+            co2Time++;
          }
         else if (targetX - transform.position.x < -maxHorSpeed)
         {
             targetX = transform.position.x - maxHorSpeed;
-          
+            co2Time++;
+
         }
         audioSource.pitch = 1.0f;
         if (!audioSource.isPlaying)
