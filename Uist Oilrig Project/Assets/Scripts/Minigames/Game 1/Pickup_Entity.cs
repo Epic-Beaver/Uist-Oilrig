@@ -16,12 +16,14 @@ public class Pickup_Entity : MonoBehaviour
     public float maxVertSpeed;
 
     public GameObject Claw;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         joint = this.GetComponentInChildren<DistanceJoint2D>();
         slopeCalc = (rightX - leftX) / (Screen.width);
+        audioSource = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,12 +34,17 @@ public class Pickup_Entity : MonoBehaviour
 
         if(targetX - transform.position.x > maxHorSpeed)
         {
-            targetX = transform.position.x + maxHorSpeed;
-        }
+            targetX = transform.position.x + maxHorSpeed;      
+         }
         else if (targetX - transform.position.x < -maxHorSpeed)
         {
             targetX = transform.position.x - maxHorSpeed;
+          
         }
+        audioSource.pitch = 1.0f;
+        if (!audioSource.isPlaying)
+            audioSource.Play();
+
         transform.position = new Vector3(targetX, transform.position.y, transform.position.z);
     }
 }

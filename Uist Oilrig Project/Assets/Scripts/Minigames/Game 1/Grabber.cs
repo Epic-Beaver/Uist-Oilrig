@@ -14,6 +14,7 @@ public class Grabber : MonoBehaviour
     public float grabDistance;
     int time = 0;
     int maxTime = 300;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,8 @@ public class Grabber : MonoBehaviour
 
         maxHeight = transform.position.y;
         minHeight = transform.position.y - depth;
+        audioSource = this.GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -30,6 +33,9 @@ public class Grabber : MonoBehaviour
         if (Input.GetAxisRaw("Fire1") > 0)
         {
             time++;
+            audioSource.pitch = 1.0f;
+            if (!audioSource.isPlaying)
+                audioSource.Play();
         } else
         {
             time--;
@@ -39,6 +45,7 @@ public class Grabber : MonoBehaviour
         if (time < 0)
         {
             time = 0;
+            audioSource.Stop();
         }
         if (time > maxTime)
         {
