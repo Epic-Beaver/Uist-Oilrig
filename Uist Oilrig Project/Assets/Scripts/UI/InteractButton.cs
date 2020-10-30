@@ -29,9 +29,8 @@ public class InteractButton : MonoBehaviour
         imagePos = cam.WorldToScreenPoint(transform.position);
         if (imagePos.z > 0 && Vector3.Distance(player.transform.position, transform.position) < 3)
         {
-            float distance = Vector2.Distance(screenCentre, imagePos);
-
-            
+            icon.enabled = true;
+            icon.GetComponentInChildren<Text>().enabled = true;
 
             if (Input.GetAxisRaw("Interact") > 0)
             {
@@ -39,6 +38,8 @@ public class InteractButton : MonoBehaviour
             }
         } else
         {
+            icon.enabled = false;
+            icon.GetComponentInChildren<Text>().enabled = false;
             imagePos = new Vector3(1000, 1000, 0);
         }
 
