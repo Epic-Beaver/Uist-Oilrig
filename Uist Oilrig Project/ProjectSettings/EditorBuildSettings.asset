@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelTest_1.unity
     guid: 8f6c016bbdbfbd741a80d453014a4bfb
+  - enabled: 1
+    path: Assets/Scenes/DecomissionTest.unity
+    guid: f8089e99713a20248ab716d957f43e23
   m_configObjects: {}
