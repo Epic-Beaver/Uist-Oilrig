@@ -27,6 +27,9 @@ public class Grabber : MonoBehaviour
         minHeight = transform.position.y - depth;
         audioSource = this.GetComponent<AudioSource>();
 
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
     }
 
     // Update is called once per frame
