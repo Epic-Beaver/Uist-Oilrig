@@ -21,8 +21,8 @@ public class CharacterSelect : MonoBehaviour
     {
         switch (character)
         {
-            case 1: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
-            case 2: SceneManager.LoadScene("OilRigSample_AddPlayerMovement"); break;
+            case 1: SceneManager.LoadScene("LevelTest_1"); break;
+            case 2: SceneManager.LoadScene("LevelTest_1"); break;
             default: break;
         }
     }
