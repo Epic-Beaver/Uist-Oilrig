@@ -5,28 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/OilRigStart.unity
+  - enabled: 0
+    path: Assets/Scenes/Testing/OilRigStart.unity
     guid: 5f5b9b1edeef1334daf9607612c41871
-  - enabled: 1
-    path: Assets/Scenes/OilRigCredits.unity
+  - enabled: 0
+    path: Assets/Scenes/Testing/OilRigCredits.unity
     guid: 287ca2c133560a14ea48828b4b0e402b
-  - enabled: 1
-    path: Assets/Scenes/OilRigLevelSelect.unity
+  - enabled: 0
+    path: Assets/Scenes/Testing/OilRigLevelSelect.unity
     guid: 52991dedb06d7f8448bb07132da9e208
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OilRigSample_AddPlayerMovement.unity
     guid: 2b7440dab49ddb7438d6ad2329b3ab84
-  - enabled: 1
-    path: Assets/Scenes/OilRigVesselSelect.unity
+  - enabled: 0
+    path: Assets/Scenes/Testing/OilRigVesselSelect.unity
     guid: 77134443fb562c74aa11c5540a80acf4
-  - enabled: 1
-    path: Assets/Scenes/OilRigCharacterSelect.unity
+  - enabled: 0
+    path: Assets/Scenes/Testing/OilRigCharacterSelect.unity
     guid: b5603142b7d4b2447a55ac9eeb725ff2
   - enabled: 1
-    path: Assets/Scenes/LevelTest_1.unity
+    path: Assets/Scenes/BuildScenes/BuildStart.unity
+    guid: 18a43a73269e29145b544e55a2968f83
+  - enabled: 1
+    path: Assets/Scenes/BuildScenes/RigWalking.unity
     guid: 8f6c016bbdbfbd741a80d453014a4bfb
   - enabled: 1
-    path: Assets/Scenes/DecomissionTest.unity
+    path: Assets/Scenes/BuildScenes/Minigame1.unity
     guid: f8089e99713a20248ab716d957f43e23
   m_configObjects: {}

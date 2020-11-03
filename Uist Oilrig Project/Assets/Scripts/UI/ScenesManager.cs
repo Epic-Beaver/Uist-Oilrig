@@ -122,17 +122,15 @@ public class ScenesManager : MonoBehaviour
 
     public void loadLevelScenes()
     {
+
+        //SANDY: This needs to be redone to use playerpreferences.
         int levelSelected = PlayerPrefs.GetInt("LevelSelected");
         int vesselSelected = PlayerPrefs.GetInt("VesselSelected");
         int characterSelected = PlayerPrefs.GetInt("CharacterSelected");
 
         if (levelSelected == 0 && vesselSelected == 0 && characterSelected == 0)
         {
-            SceneManager.LoadScene("LevelTest_1");
-        }
-        else if (levelSelected == 1 && vesselSelected == 1 && characterSelected == 1)
-        {
-            SceneManager.LoadScene("LevelTest_2");
+            SceneManager.LoadScene("RigWalking");
         }
     }
 }
