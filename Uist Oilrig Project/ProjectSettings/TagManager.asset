@@ -17,9 +17,9 @@ TagManager:
   - Physics2D
   - Triggers
   - MinimapIcons
-  - 
-  - 
-  - 
+  - solid
+  - drill
+  - slice
   - 
   - 
   - 

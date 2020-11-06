@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 7485392}
   - component: {fileID: 7485391}
   - component: {fileID: 7485390}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 16705052}
   - component: {fileID: 16705051}
   - component: {fileID: 16705050}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 41006061}
   - component: {fileID: 41006060}
   - component: {fileID: 41006059}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 42827467}
   - component: {fileID: 42827466}
   - component: {fileID: 42827465}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 51507246}
   - component: {fileID: 51507245}
   - component: {fileID: 51507244}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 58799488}
   - component: {fileID: 58799487}
   - component: {fileID: 58799486}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -769,7 +769,7 @@ GameObject:
   - component: {fileID: 84984225}
   - component: {fileID: 84984224}
   - component: {fileID: 84984223}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   - component: {fileID: 85736423}
   - component: {fileID: 85736422}
   - component: {fileID: 85736421}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 161616226}
   - component: {fileID: 161616225}
   - component: {fileID: 161616224}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1281,7 +1281,7 @@ GameObject:
   - component: {fileID: 166499630}
   - component: {fileID: 166499629}
   - component: {fileID: 166499628}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1374,7 +1374,7 @@ GameObject:
   - component: {fileID: 168062066}
   - component: {fileID: 168062065}
   - component: {fileID: 168062064}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1467,7 @@ GameObject:
   - component: {fileID: 193255147}
   - component: {fileID: 193255146}
   - component: {fileID: 193255145}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1560,7 @@ GameObject:
   - component: {fileID: 199429451}
   - component: {fileID: 199429450}
   - component: {fileID: 199429449}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1653,7 +1653,7 @@ GameObject:
   - component: {fileID: 228919805}
   - component: {fileID: 228919804}
   - component: {fileID: 228919803}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1746,7 +1746,7 @@ GameObject:
   - component: {fileID: 240398218}
   - component: {fileID: 240398217}
   - component: {fileID: 240398216}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1938,7 +1938,7 @@ GameObject:
   - component: {fileID: 256660150}
   - component: {fileID: 256660149}
   - component: {fileID: 256660148}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2018,7 +2018,7 @@ GameObject:
   - component: {fileID: 259718506}
   - component: {fileID: 259718505}
   - component: {fileID: 259718504}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 269349202}
   - component: {fileID: 269349201}
   - component: {fileID: 269349200}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2204,7 +2204,7 @@ GameObject:
   - component: {fileID: 270758029}
   - component: {fileID: 270758028}
   - component: {fileID: 270758027}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2297,7 +2297,7 @@ GameObject:
   - component: {fileID: 292046928}
   - component: {fileID: 292046927}
   - component: {fileID: 292046926}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2390,7 +2390,7 @@ GameObject:
   - component: {fileID: 317513838}
   - component: {fileID: 317513837}
   - component: {fileID: 317513836}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2483,7 +2483,7 @@ GameObject:
   - component: {fileID: 317983045}
   - component: {fileID: 317983044}
   - component: {fileID: 317983043}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2575,7 +2575,7 @@ GameObject:
   - component: {fileID: 334013533}
   - component: {fileID: 334013532}
   - component: {fileID: 334013531}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2655,7 +2655,7 @@ GameObject:
   - component: {fileID: 344574715}
   - component: {fileID: 344574714}
   - component: {fileID: 344574713}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2736,79 +2736,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344574711}
   m_Mesh: {fileID: 4334890750227075741, guid: ec7c2890bc07bb542ae84f331c21808d, type: 3}
---- !u!1001 &347027901
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1715967836}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_Name
-      value: Drill
-      objectReference: {fileID: 0}
-    - target: {fileID: 100002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 100006, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.44
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.086325265
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.22530408
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.11739714
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9633296
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -12.663001
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.096
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -11.067
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 004a97f809c2c7c40b973eabe880a410, type: 3}
 --- !u!1 &354938580
 GameObject:
   m_ObjectHideFlags: 0
@@ -2821,7 +2748,7 @@ GameObject:
   - component: {fileID: 354938584}
   - component: {fileID: 354938583}
   - component: {fileID: 354938582}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2914,7 +2841,7 @@ GameObject:
   - component: {fileID: 361284688}
   - component: {fileID: 361284687}
   - component: {fileID: 361284686}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3007,7 +2934,7 @@ GameObject:
   - component: {fileID: 374209432}
   - component: {fileID: 374209431}
   - component: {fileID: 374209430}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3100,7 +3027,7 @@ GameObject:
   - component: {fileID: 374897364}
   - component: {fileID: 374897363}
   - component: {fileID: 374897362}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3193,7 +3120,7 @@ GameObject:
   - component: {fileID: 414127356}
   - component: {fileID: 414127355}
   - component: {fileID: 414127354}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3286,7 +3213,7 @@ GameObject:
   - component: {fileID: 431807416}
   - component: {fileID: 431807415}
   - component: {fileID: 431807414}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3367,6 +3294,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431807412}
   m_Mesh: {fileID: 4334890750227075741, guid: ec7c2890bc07bb542ae84f331c21808d, type: 3}
+--- !u!4 &431861307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2125230800}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &434591967
 GameObject:
   m_ObjectHideFlags: 0
@@ -3379,7 +3312,7 @@ GameObject:
   - component: {fileID: 434591971}
   - component: {fileID: 434591970}
   - component: {fileID: 434591969}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3543,7 +3476,7 @@ GameObject:
   - component: {fileID: 447818038}
   - component: {fileID: 447818037}
   - component: {fileID: 447818036}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3712,7 +3645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452141834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.38, y: 0.22, z: -2.76}
+  m_LocalPosition: {x: -1.73, y: 0.22, z: -0.43}
   m_LocalScale: {x: -1.7, y: 0.42, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3746,7 +3679,7 @@ GameObject:
   - component: {fileID: 454075781}
   - component: {fileID: 454075780}
   - component: {fileID: 454075779}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3839,7 +3772,7 @@ GameObject:
   - component: {fileID: 463101077}
   - component: {fileID: 463101076}
   - component: {fileID: 463101075}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3932,7 +3865,7 @@ GameObject:
   - component: {fileID: 476228758}
   - component: {fileID: 476228757}
   - component: {fileID: 476228756}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4025,7 +3958,7 @@ GameObject:
   - component: {fileID: 479486533}
   - component: {fileID: 479486532}
   - component: {fileID: 479486531}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4118,7 +4051,7 @@ GameObject:
   - component: {fileID: 510666040}
   - component: {fileID: 510666039}
   - component: {fileID: 510666038}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4211,7 +4144,7 @@ GameObject:
   - component: {fileID: 521957118}
   - component: {fileID: 521957117}
   - component: {fileID: 521957116}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4304,7 +4237,7 @@ GameObject:
   - component: {fileID: 564235049}
   - component: {fileID: 564235048}
   - component: {fileID: 564235047}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4397,7 +4330,7 @@ GameObject:
   - component: {fileID: 590753291}
   - component: {fileID: 590753290}
   - component: {fileID: 590753289}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4490,7 +4423,7 @@ GameObject:
   - component: {fileID: 599996707}
   - component: {fileID: 599996706}
   - component: {fileID: 599996705}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4583,7 +4516,7 @@ GameObject:
   - component: {fileID: 610928032}
   - component: {fileID: 610928031}
   - component: {fileID: 610928030}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4676,7 +4609,7 @@ GameObject:
   - component: {fileID: 612535711}
   - component: {fileID: 612535710}
   - component: {fileID: 612535709}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4768,7 +4701,7 @@ GameObject:
   - component: {fileID: 633324039}
   - component: {fileID: 633324038}
   - component: {fileID: 633324037}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4848,7 +4781,7 @@ GameObject:
   - component: {fileID: 655106529}
   - component: {fileID: 655106528}
   - component: {fileID: 655106527}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4941,7 +4874,7 @@ GameObject:
   - component: {fileID: 663987268}
   - component: {fileID: 663987267}
   - component: {fileID: 663987266}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5034,7 +4967,7 @@ GameObject:
   - component: {fileID: 671294165}
   - component: {fileID: 671294164}
   - component: {fileID: 671294163}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5127,7 +5060,7 @@ GameObject:
   - component: {fileID: 675065096}
   - component: {fileID: 675065095}
   - component: {fileID: 675065094}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberRamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5220,7 +5153,7 @@ GameObject:
   - component: {fileID: 695469204}
   - component: {fileID: 695469203}
   - component: {fileID: 695469202}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5313,7 +5246,7 @@ GameObject:
   - component: {fileID: 695593730}
   - component: {fileID: 695593729}
   - component: {fileID: 695593728}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5406,7 +5339,7 @@ GameObject:
   - component: {fileID: 696855073}
   - component: {fileID: 696855072}
   - component: {fileID: 696855071}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5498,7 +5431,7 @@ GameObject:
   - component: {fileID: 713442695}
   - component: {fileID: 713442694}
   - component: {fileID: 713442693}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5654,7 +5587,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724427080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.57, y: 0.33, z: -1.44}
+  m_LocalPosition: {x: -1.51, y: 0.33, z: -1.76}
   m_LocalScale: {x: 0.8099536, y: 0.6251247, z: 1.2437677}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5688,7 +5621,7 @@ GameObject:
   - component: {fileID: 730571419}
   - component: {fileID: 730571418}
   - component: {fileID: 730571417}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5781,7 +5714,7 @@ GameObject:
   - component: {fileID: 732351575}
   - component: {fileID: 732351574}
   - component: {fileID: 732351573}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5874,7 +5807,7 @@ GameObject:
   - component: {fileID: 737760177}
   - component: {fileID: 737760176}
   - component: {fileID: 737760175}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5967,7 +5900,7 @@ GameObject:
   - component: {fileID: 746169858}
   - component: {fileID: 746169857}
   - component: {fileID: 746169856}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6060,7 +5993,7 @@ GameObject:
   - component: {fileID: 781440607}
   - component: {fileID: 781440606}
   - component: {fileID: 781440605}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6153,7 +6086,7 @@ GameObject:
   - component: {fileID: 786340583}
   - component: {fileID: 786340582}
   - component: {fileID: 786340581}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6246,7 +6179,7 @@ GameObject:
   - component: {fileID: 818402502}
   - component: {fileID: 818402501}
   - component: {fileID: 818402500}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6339,7 +6272,7 @@ GameObject:
   - component: {fileID: 824199421}
   - component: {fileID: 824199420}
   - component: {fileID: 824199419}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6432,7 +6365,7 @@ GameObject:
   - component: {fileID: 825981079}
   - component: {fileID: 825981078}
   - component: {fileID: 825981077}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6525,7 +6458,7 @@ GameObject:
   - component: {fileID: 835103461}
   - component: {fileID: 835103460}
   - component: {fileID: 835103459}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6618,7 +6551,7 @@ GameObject:
   - component: {fileID: 840806109}
   - component: {fileID: 840806108}
   - component: {fileID: 840806107}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6711,7 +6644,7 @@ GameObject:
   - component: {fileID: 846032541}
   - component: {fileID: 846032540}
   - component: {fileID: 846032539}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6804,7 +6737,7 @@ GameObject:
   - component: {fileID: 851498148}
   - component: {fileID: 851498147}
   - component: {fileID: 851498146}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6897,7 +6830,7 @@ GameObject:
   - component: {fileID: 865155787}
   - component: {fileID: 865155786}
   - component: {fileID: 865155785}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6990,7 +6923,7 @@ GameObject:
   - component: {fileID: 886471992}
   - component: {fileID: 886471991}
   - component: {fileID: 886471990}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7157,7 +7090,7 @@ GameObject:
   - component: {fileID: 916359136}
   - component: {fileID: 916359135}
   - component: {fileID: 916359134}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7252,7 +7185,7 @@ GameObject:
   - component: {fileID: 920262357}
   - component: {fileID: 920262356}
   - component: {fileID: 920262355}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -7452,7 +7385,7 @@ GameObject:
   - component: {fileID: 934722145}
   - component: {fileID: 934722144}
   - component: {fileID: 934722143}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7545,7 +7478,7 @@ GameObject:
   - component: {fileID: 935619233}
   - component: {fileID: 935619232}
   - component: {fileID: 935619231}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7638,7 +7571,7 @@ GameObject:
   - component: {fileID: 954578890}
   - component: {fileID: 954578889}
   - component: {fileID: 954578888}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7731,7 +7664,7 @@ GameObject:
   - component: {fileID: 964977242}
   - component: {fileID: 964977241}
   - component: {fileID: 964977240}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7824,7 +7757,7 @@ GameObject:
   - component: {fileID: 965944672}
   - component: {fileID: 965944671}
   - component: {fileID: 965944670}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7917,7 +7850,7 @@ GameObject:
   - component: {fileID: 1001868824}
   - component: {fileID: 1001868823}
   - component: {fileID: 1001868822}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8010,7 +7943,7 @@ GameObject:
   - component: {fileID: 1010139254}
   - component: {fileID: 1010139253}
   - component: {fileID: 1010139252}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8179,7 +8112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020789143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.136, y: 1.2919, z: -2.759}
+  m_LocalPosition: {x: -1.84, y: 1.21, z: -0.36}
   m_LocalScale: {x: -0.6758218, y: 1.6507071, z: 0.7118894}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8213,7 +8146,7 @@ GameObject:
   - component: {fileID: 1064146620}
   - component: {fileID: 1064146619}
   - component: {fileID: 1064146618}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8306,7 +8239,7 @@ GameObject:
   - component: {fileID: 1084042916}
   - component: {fileID: 1084042915}
   - component: {fileID: 1084042914}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8399,7 +8332,7 @@ GameObject:
   - component: {fileID: 1085273682}
   - component: {fileID: 1085273681}
   - component: {fileID: 1085273680}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8492,7 +8425,7 @@ GameObject:
   - component: {fileID: 1095989220}
   - component: {fileID: 1095989219}
   - component: {fileID: 1095989218}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8583,8 +8516,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1133396636}
   - component: {fileID: 1133396637}
-  m_Layer: 13
-  m_Name: OilRig123
+  m_Layer: 11
+  m_Name: OilRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8877,7 +8810,7 @@ GameObject:
   - component: {fileID: 1156651410}
   - component: {fileID: 1156651409}
   - component: {fileID: 1156651408}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8970,7 +8903,7 @@ GameObject:
   - component: {fileID: 1158525596}
   - component: {fileID: 1158525595}
   - component: {fileID: 1158525594}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9063,7 +8996,7 @@ GameObject:
   - component: {fileID: 1162878048}
   - component: {fileID: 1162878047}
   - component: {fileID: 1162878046}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9156,7 +9089,7 @@ GameObject:
   - component: {fileID: 1175328988}
   - component: {fileID: 1175328987}
   - component: {fileID: 1175328986}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9249,7 +9182,7 @@ GameObject:
   - component: {fileID: 1184834731}
   - component: {fileID: 1184834730}
   - component: {fileID: 1184834729}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9342,7 +9275,7 @@ GameObject:
   - component: {fileID: 1195520380}
   - component: {fileID: 1195520379}
   - component: {fileID: 1195520378}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9435,7 +9368,7 @@ GameObject:
   - component: {fileID: 1220237420}
   - component: {fileID: 1220237419}
   - component: {fileID: 1220237418}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9528,7 +9461,7 @@ GameObject:
   - component: {fileID: 1222877288}
   - component: {fileID: 1222877287}
   - component: {fileID: 1222877286}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9621,7 +9554,7 @@ GameObject:
   - component: {fileID: 1223463738}
   - component: {fileID: 1223463737}
   - component: {fileID: 1223463736}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9714,7 +9647,7 @@ GameObject:
   - component: {fileID: 1232736779}
   - component: {fileID: 1232736778}
   - component: {fileID: 1232736777}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9807,7 +9740,7 @@ GameObject:
   - component: {fileID: 1237195700}
   - component: {fileID: 1237195699}
   - component: {fileID: 1237195698}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9900,7 +9833,7 @@ GameObject:
   - component: {fileID: 1242668457}
   - component: {fileID: 1242668456}
   - component: {fileID: 1242668455}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9993,7 +9926,7 @@ GameObject:
   - component: {fileID: 1255279026}
   - component: {fileID: 1255279025}
   - component: {fileID: 1255279024}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10086,7 +10019,7 @@ GameObject:
   - component: {fileID: 1255460027}
   - component: {fileID: 1255460026}
   - component: {fileID: 1255460025}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10179,7 +10112,7 @@ GameObject:
   - component: {fileID: 1273875984}
   - component: {fileID: 1273875983}
   - component: {fileID: 1273875982}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10346,7 +10279,7 @@ GameObject:
   - component: {fileID: 1305453835}
   - component: {fileID: 1305453834}
   - component: {fileID: 1305453833}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10439,7 +10372,7 @@ GameObject:
   - component: {fileID: 1318896302}
   - component: {fileID: 1318896301}
   - component: {fileID: 1318896300}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10531,7 +10464,7 @@ GameObject:
   - component: {fileID: 1356498881}
   - component: {fileID: 1356498880}
   - component: {fileID: 1356498879}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10611,7 +10544,7 @@ GameObject:
   - component: {fileID: 1389178875}
   - component: {fileID: 1389178874}
   - component: {fileID: 1389178873}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberRamp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10704,7 +10637,7 @@ GameObject:
   - component: {fileID: 1395614765}
   - component: {fileID: 1395614764}
   - component: {fileID: 1395614763}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10797,7 +10730,7 @@ GameObject:
   - component: {fileID: 1398153594}
   - component: {fileID: 1398153593}
   - component: {fileID: 1398153592}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10890,7 +10823,7 @@ GameObject:
   - component: {fileID: 1433573737}
   - component: {fileID: 1433573736}
   - component: {fileID: 1433573735}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10983,7 +10916,7 @@ GameObject:
   - component: {fileID: 1438732399}
   - component: {fileID: 1438732398}
   - component: {fileID: 1438732397}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11076,7 +11009,7 @@ GameObject:
   - component: {fileID: 1442142294}
   - component: {fileID: 1442142293}
   - component: {fileID: 1442142292}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11169,7 +11102,7 @@ GameObject:
   - component: {fileID: 1452677448}
   - component: {fileID: 1452677447}
   - component: {fileID: 1452677446}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11262,7 +11195,7 @@ GameObject:
   - component: {fileID: 1456441817}
   - component: {fileID: 1456441816}
   - component: {fileID: 1456441815}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11343,12 +11276,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456441813}
   m_Mesh: {fileID: 4334890750227075741, guid: ec7c2890bc07bb542ae84f331c21808d, type: 3}
---- !u!4 &1460360440 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400002, guid: 004a97f809c2c7c40b973eabe880a410,
-    type: 3}
-  m_PrefabInstance: {fileID: 347027901}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1466108904
 GameObject:
   m_ObjectHideFlags: 0
@@ -11361,7 +11288,7 @@ GameObject:
   - component: {fileID: 1466108908}
   - component: {fileID: 1466108907}
   - component: {fileID: 1466108906}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11454,7 +11381,7 @@ GameObject:
   - component: {fileID: 1476056349}
   - component: {fileID: 1476056348}
   - component: {fileID: 1476056347}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11547,7 +11474,7 @@ GameObject:
   - component: {fileID: 1481637174}
   - component: {fileID: 1481637173}
   - component: {fileID: 1481637172}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11729,7 +11656,7 @@ GameObject:
   - component: {fileID: 1493959956}
   - component: {fileID: 1493959955}
   - component: {fileID: 1493959954}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Cube.002 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11809,7 +11736,7 @@ GameObject:
   - component: {fileID: 1508871214}
   - component: {fileID: 1508871213}
   - component: {fileID: 1508871212}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11902,7 +11829,7 @@ GameObject:
   - component: {fileID: 1510376032}
   - component: {fileID: 1510376031}
   - component: {fileID: 1510376030}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11995,7 +11922,7 @@ GameObject:
   - component: {fileID: 1512919599}
   - component: {fileID: 1512919598}
   - component: {fileID: 1512919597}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12088,7 +12015,7 @@ GameObject:
   - component: {fileID: 1533143553}
   - component: {fileID: 1533143552}
   - component: {fileID: 1533143551}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12181,7 +12108,7 @@ GameObject:
   - component: {fileID: 1544723606}
   - component: {fileID: 1544723605}
   - component: {fileID: 1544723604}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12274,7 +12201,7 @@ GameObject:
   - component: {fileID: 1555531537}
   - component: {fileID: 1555531536}
   - component: {fileID: 1555531535}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12367,7 +12294,7 @@ GameObject:
   - component: {fileID: 1556547430}
   - component: {fileID: 1556547429}
   - component: {fileID: 1556547428}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12460,7 +12387,7 @@ GameObject:
   - component: {fileID: 1578588854}
   - component: {fileID: 1578588853}
   - component: {fileID: 1578588852}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12629,7 +12556,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589445087}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.21, y: 2.62, z: -2.738}
+  m_LocalPosition: {x: -1.836, y: 2.52, z: -0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12663,7 +12590,7 @@ GameObject:
   - component: {fileID: 1592459405}
   - component: {fileID: 1592459404}
   - component: {fileID: 1592459403}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12756,7 +12683,7 @@ GameObject:
   - component: {fileID: 1596263729}
   - component: {fileID: 1596263728}
   - component: {fileID: 1596263727}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12849,7 +12776,7 @@ GameObject:
   - component: {fileID: 1629676248}
   - component: {fileID: 1629676247}
   - component: {fileID: 1629676246}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12942,7 +12869,7 @@ GameObject:
   - component: {fileID: 1632924951}
   - component: {fileID: 1632924950}
   - component: {fileID: 1632924949}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13035,7 +12962,7 @@ GameObject:
   - component: {fileID: 1639951304}
   - component: {fileID: 1639951303}
   - component: {fileID: 1639951302}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13128,7 +13055,7 @@ GameObject:
   - component: {fileID: 1645545504}
   - component: {fileID: 1645545503}
   - component: {fileID: 1645545502}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13221,7 +13148,7 @@ GameObject:
   - component: {fileID: 1646040212}
   - component: {fileID: 1646040211}
   - component: {fileID: 1646040210}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13314,7 +13241,7 @@ GameObject:
   - component: {fileID: 1646657848}
   - component: {fileID: 1646657847}
   - component: {fileID: 1646657846}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13407,7 +13334,7 @@ GameObject:
   - component: {fileID: 1654377440}
   - component: {fileID: 1654377439}
   - component: {fileID: 1654377438}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13500,7 +13427,7 @@ GameObject:
   - component: {fileID: 1700030902}
   - component: {fileID: 1700030901}
   - component: {fileID: 1700030900}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13593,7 +13520,7 @@ GameObject:
   - component: {fileID: 1707974023}
   - component: {fileID: 1707974022}
   - component: {fileID: 1707974021}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13687,7 +13614,7 @@ GameObject:
   - component: {fileID: 1715967834}
   - component: {fileID: 1715967837}
   - component: {fileID: 1715967838}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -13733,7 +13660,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 11063
+    m_Bits: 6967
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -13756,7 +13683,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1460360440}
+  - {fileID: 431861307}
   m_Father: {fileID: 920262360}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13819,7 +13746,7 @@ GameObject:
   - component: {fileID: 1718370376}
   - component: {fileID: 1718370375}
   - component: {fileID: 1718370374}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13912,7 +13839,7 @@ GameObject:
   - component: {fileID: 1718691488}
   - component: {fileID: 1718691487}
   - component: {fileID: 1718691486}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14005,7 +13932,7 @@ GameObject:
   - component: {fileID: 1730033082}
   - component: {fileID: 1730033081}
   - component: {fileID: 1730033080}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14098,7 +14025,7 @@ GameObject:
   - component: {fileID: 1740838595}
   - component: {fileID: 1740838594}
   - component: {fileID: 1740838593}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14191,7 +14118,7 @@ GameObject:
   - component: {fileID: 1749138786}
   - component: {fileID: 1749138785}
   - component: {fileID: 1749138784}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14284,7 +14211,7 @@ GameObject:
   - component: {fileID: 1760889598}
   - component: {fileID: 1760889597}
   - component: {fileID: 1760889596}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14377,7 +14304,7 @@ GameObject:
   - component: {fileID: 1779510533}
   - component: {fileID: 1779510532}
   - component: {fileID: 1779510531}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14470,7 +14397,7 @@ GameObject:
   - component: {fileID: 1782570949}
   - component: {fileID: 1782570948}
   - component: {fileID: 1782570947}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14563,7 +14490,7 @@ GameObject:
   - component: {fileID: 1803853915}
   - component: {fileID: 1803853914}
   - component: {fileID: 1803853913}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14656,7 +14583,7 @@ GameObject:
   - component: {fileID: 1811516843}
   - component: {fileID: 1811516842}
   - component: {fileID: 1811516841}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14749,7 +14676,7 @@ GameObject:
   - component: {fileID: 1814660092}
   - component: {fileID: 1814660091}
   - component: {fileID: 1814660090}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14842,7 +14769,7 @@ GameObject:
   - component: {fileID: 1816940907}
   - component: {fileID: 1816940906}
   - component: {fileID: 1816940905}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14935,7 +14862,7 @@ GameObject:
   - component: {fileID: 1837731378}
   - component: {fileID: 1837731377}
   - component: {fileID: 1837731376}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberRamp (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15028,7 +14955,7 @@ GameObject:
   - component: {fileID: 1844855552}
   - component: {fileID: 1844855551}
   - component: {fileID: 1844855550}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15169,7 +15096,7 @@ GameObject:
   - component: {fileID: 1862779834}
   - component: {fileID: 1862779833}
   - component: {fileID: 1862779832}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15262,7 +15189,7 @@ GameObject:
   - component: {fileID: 1870059004}
   - component: {fileID: 1870059003}
   - component: {fileID: 1870059002}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15355,7 +15282,7 @@ GameObject:
   - component: {fileID: 1877280614}
   - component: {fileID: 1877280613}
   - component: {fileID: 1877280615}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: Spliter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15369,11 +15296,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877280610}
-  m_LocalRotation: {x: 0.086325265, y: 0.22530408, z: 0.11739714, w: 0.9633296}
-  m_LocalPosition: {x: 0.034961984, y: 0.34376687, z: 0.53544545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.034961976, y: 0.3437668, z: 0.5354455}
   m_LocalScale: {x: 1, y: 0.010000001, z: 1}
   m_Children: []
-  m_Father: {fileID: 1460360440}
+  m_Father: {fileID: 431861307}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1877280613
@@ -15435,7 +15362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cba42c34f41ebf04f902b90f4fc369f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  matCross: {fileID: 2100000, guid: 939f7a25ee5027842a887b0029afccc0, type: 2}
+  matCross: {fileID: 2100000, guid: 849cbf8e8448bee459ecc2309502a4c1, type: 2}
 --- !u!1 &1882115438
 GameObject:
   m_ObjectHideFlags: 0
@@ -15448,7 +15375,7 @@ GameObject:
   - component: {fileID: 1882115442}
   - component: {fileID: 1882115441}
   - component: {fileID: 1882115440}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15541,7 +15468,7 @@ GameObject:
   - component: {fileID: 1938028039}
   - component: {fileID: 1938028038}
   - component: {fileID: 1938028037}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15634,7 +15561,7 @@ GameObject:
   - component: {fileID: 1941129816}
   - component: {fileID: 1941129815}
   - component: {fileID: 1941129814}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15727,7 +15654,7 @@ GameObject:
   - component: {fileID: 1943987783}
   - component: {fileID: 1943987782}
   - component: {fileID: 1943987781}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15820,7 +15747,7 @@ GameObject:
   - component: {fileID: 1947477748}
   - component: {fileID: 1947477747}
   - component: {fileID: 1947477746}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16005,7 +15932,7 @@ GameObject:
   - component: {fileID: 1951586078}
   - component: {fileID: 1951586077}
   - component: {fileID: 1951586076}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16098,7 +16025,7 @@ GameObject:
   - component: {fileID: 1958024253}
   - component: {fileID: 1958024252}
   - component: {fileID: 1958024251}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16191,7 +16118,7 @@ GameObject:
   - component: {fileID: 1975702141}
   - component: {fileID: 1975702140}
   - component: {fileID: 1975702139}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16284,7 +16211,7 @@ GameObject:
   - component: {fileID: 1981092741}
   - component: {fileID: 1981092740}
   - component: {fileID: 1981092739}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16377,7 +16304,7 @@ GameObject:
   - component: {fileID: 1982079699}
   - component: {fileID: 1982079698}
   - component: {fileID: 1982079697}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16470,7 +16397,7 @@ GameObject:
   - component: {fileID: 2007460308}
   - component: {fileID: 2007460307}
   - component: {fileID: 2007460306}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16564,7 +16491,7 @@ GameObject:
   - component: {fileID: 2008401241}
   - component: {fileID: 2008401240}
   - component: {fileID: 2008401239}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16657,7 +16584,7 @@ GameObject:
   - component: {fileID: 2009001328}
   - component: {fileID: 2009001327}
   - component: {fileID: 2009001326}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16948,7 +16875,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 10039
+    m_Bits: 3895
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 5ff8a46d624d549479bc34eb7361c090, type: 2}
   m_TargetDisplay: 0
@@ -16986,7 +16913,7 @@ GameObject:
   - component: {fileID: 2046045339}
   - component: {fileID: 2046045338}
   - component: {fileID: 2046045337}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17079,7 +17006,7 @@ GameObject:
   - component: {fileID: 2069477312}
   - component: {fileID: 2069477311}
   - component: {fileID: 2069477310}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17172,7 +17099,7 @@ GameObject:
   - component: {fileID: 2069617218}
   - component: {fileID: 2069617217}
   - component: {fileID: 2069617216}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: RubberFloor (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17265,7 +17192,7 @@ GameObject:
   - component: {fileID: 2080431259}
   - component: {fileID: 2080431258}
   - component: {fileID: 2080431257}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17358,7 +17285,7 @@ GameObject:
   - component: {fileID: 2081302671}
   - component: {fileID: 2081302670}
   - component: {fileID: 2081302669}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17451,7 +17378,7 @@ GameObject:
   - component: {fileID: 2103349280}
   - component: {fileID: 2103349279}
   - component: {fileID: 2103349278}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17544,7 +17471,7 @@ GameObject:
   - component: {fileID: 2107432418}
   - component: {fileID: 2107432417}
   - component: {fileID: 2107432416}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Panel (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17625,6 +17552,95 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107432414}
   m_Mesh: {fileID: 6464809856111060268, guid: ec7c2890bc07bb542ae84f331c21808d, type: 3}
+--- !u!1001 &2125230800
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1715967836}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.731
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.344
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2445792
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.19488916
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.008471437
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.037485372
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98007214
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -22.419
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.9350001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.7640004
+      objectReference: {fileID: 0}
+    - target: {fileID: -7547232045555778398, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -4495384429871181660, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 635547659545568360, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_Name
+      value: Drill
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f22e0a686f10e6044ab1d712b76e9ef8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f22e0a686f10e6044ab1d712b76e9ef8, type: 3}
 --- !u!1 &2141122955
 GameObject:
   m_ObjectHideFlags: 0
@@ -17637,7 +17653,7 @@ GameObject:
   - component: {fileID: 2141122959}
   - component: {fileID: 2141122958}
   - component: {fileID: 2141122957}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: Railing (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
