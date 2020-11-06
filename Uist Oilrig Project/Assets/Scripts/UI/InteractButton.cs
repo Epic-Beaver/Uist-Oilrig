@@ -14,6 +14,7 @@ public class InteractButton : MonoBehaviour
     private Vector3 imagePos;
     private Vector3 screenCentre;
 
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +35,7 @@ public class InteractButton : MonoBehaviour
 
             if (Input.GetAxisRaw("Interact") > 0)
             {
-                SceneManager.LoadScene(sceneName);
+                StartCoroutine(LoadLevel(sceneName));
             }
         } else
         {
@@ -45,5 +46,14 @@ public class InteractButton : MonoBehaviour
 
         icon.transform.position = imagePos;
 
+    }
+
+    IEnumerator LoadLevel(string levelName)
+    {
+        anim.SetTrigger("Fade");
+
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene(levelName);
     }
 }

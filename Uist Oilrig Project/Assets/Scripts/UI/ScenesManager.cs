@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class ScenesManager : MonoBehaviour
 {
     public GameObject[] Scenes, vessels, levels, characters;
-    public int scenesIndex = 0, vesselIndex=0, levelIndex=0, characterIndex=0;
-  
+    public int scenesIndex = 0, vesselIndex = 0, levelIndex = 0, characterIndex = 0;
+
+    public Animator anim;
 
     private void Start()
     {
@@ -16,7 +17,7 @@ public class ScenesManager : MonoBehaviour
         {
             Scenes[i] = transform.GetChild(i).gameObject;
         }
-        foreach(GameObject go in Scenes)
+        foreach (GameObject go in Scenes)
         {
             go.SetActive(false);
         }
@@ -48,7 +49,7 @@ public class ScenesManager : MonoBehaviour
     {
         Application.Quit();
     }
-   
+
 
     public void NextVessel()
     {
@@ -117,7 +118,7 @@ public class ScenesManager : MonoBehaviour
         PlayerPrefs.SetInt("VesselSelected", vesselIndex);
         PlayerPrefs.SetInt("LevelSelected", levelIndex);
         PlayerPrefs.SetInt("CharacterSelected", characterIndex);
-        
+
     }
 
     public void loadLevelScenes()
@@ -130,7 +131,30 @@ public class ScenesManager : MonoBehaviour
 
         if (levelSelected == 0 && vesselSelected == 0 && characterSelected == 0)
         {
-            SceneManager.LoadScene("RigWalking");
+            StartCoroutine(LoadLevel("RigWalking"));
         }
+    }
+
+    //public void next()
+    //{
+        //StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    //}
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        anim.SetTrigger("Fade");
+
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene(levelIndex);
+    }
+
+    IEnumerator LoadLevel(string levelName)
+    {
+        anim.SetTrigger("Fade");
+
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene(levelName);
     }
 }
