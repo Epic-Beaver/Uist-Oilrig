@@ -4834,6 +4834,7 @@ GameObject:
   - component: {fileID: 8929059116126865174}
   - component: {fileID: 8929059116126865173}
   - component: {fileID: 8929059116126865172}
+  - component: {fileID: 1289104583}
   m_Layer: 0
   m_Name: Rain
   m_TagString: Untagged
@@ -9578,3 +9579,20 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &1289104583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8929059116126865171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4bf9f951b4b3e44081b0585bd9137f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goodWeather: 0
+  allowFog: 1
+  fogDensity: 1
+  goodSky: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  badSky: {fileID: 2100000, guid: af0be0bc9c41d9542b3350fd46c7bfa4, type: 2}
