@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class WeatherControler : MonoBehaviour
 {
 
-    public bool goodWeather = true;
+    public static bool goodWeather;
+    public bool isGoodWeather = true;
 
     public bool allowFog = true;
     private ParticleSystem ps;
@@ -14,8 +16,17 @@ public class WeatherControler : MonoBehaviour
     public Material goodSky;
     public Material badSky;
 
+    void Awake()
+    {
+        goodWeather = isGoodWeather;
+        print("1 good weather " + goodWeather + "\n");
+        print("1 is good weather " + isGoodWeather + "\n");
+    }
+
     void Start()
     {
+        print("2 good weather " + goodWeather + "\n");
+        print("2 is good weather " + isGoodWeather + "\n");
         ps = gameObject.GetComponent<ParticleSystem>();
         updateWeather();
     }
@@ -35,6 +46,7 @@ public class WeatherControler : MonoBehaviour
 
     void setBadWeather()
     {
+        RenderSettings.fogDensity = fogDensity;
         RenderSettings.fog = allowFog;
         var emission = ps.emission;
         emission.enabled = true;

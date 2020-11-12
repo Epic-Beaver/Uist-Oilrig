@@ -1009,6 +1009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 762273408}
+  - component: {fileID: 762273409}
   m_Layer: 0
   m_Name: Physics Objects
   m_TagString: Untagged
@@ -1034,6 +1035,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &762273409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762273407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96480e358dc57ae46aabbecc7fbe291a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weatherDrag: 0.5
+  weatherGravity: 0.8
+  normalDrag: 0.8
+  normalGravity: 1
+  normal: {fileID: 6200000, guid: 08134ef8bf8767746be48bd5221076e9, type: 2}
+  slippery: {fileID: 6200000, guid: 5f17d18bdce8c03449fb80d04b97c667, type: 2}
 --- !u!1 &776191672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,11 +2374,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1289104583, guid: b8bf33afb0831ee4dbb2012c69c61464, type: 3}
       propertyPath: fogDensity
-      value: 0.05
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 1289104583, guid: b8bf33afb0831ee4dbb2012c69c61464, type: 3}
       propertyPath: allowFog
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1289104583, guid: b8bf33afb0831ee4dbb2012c69c61464, type: 3}
+      propertyPath: isGoodWeather
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8929059116126865171, guid: b8bf33afb0831ee4dbb2012c69c61464,
         type: 3}
