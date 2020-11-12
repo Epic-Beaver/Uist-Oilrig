@@ -34,7 +34,7 @@ public class InteractButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        print(this.gameObject.name);
         imagePos = cam.WorldToScreenPoint(transform.position);
         if (imagePos.z > 0 && Vector3.Distance(player.transform.position, transform.position) < 3)
         {
@@ -57,12 +57,14 @@ public class InteractButton : MonoBehaviour
                     icon.enabled = false;
                     icon.GetComponentInChildren<Text>().enabled = false;
                 }
+
                 if (toDoList.transform.Find("1").GetComponent<Text>().color == Color.grey && toDoList.transform.Find("2").GetComponent<Text>().color == Color.grey)
                 {
                     if (!miniGame.activeSelf)
                         miniGame.SetActive(true);
                     toDoList.transform.Find("4").GetComponent<Text>().color = Color.black;
                 }
+
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
