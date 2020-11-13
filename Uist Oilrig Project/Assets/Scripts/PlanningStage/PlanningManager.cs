@@ -10,8 +10,8 @@ public class PlanningManager : MonoBehaviour
     private Transform[] options;
     [SerializeField]
     private GameObject wrongSign;
-
-
+    
+   
 
     private void Start()
     {
@@ -19,21 +19,22 @@ public class PlanningManager : MonoBehaviour
     }
     void Update()
     {
-        CheckResults();
+
+        if (options[0].position.x == box[0].transform.position.x && options[1].position.x == box[1].transform.position.x && options[2].position.x == box[2].transform.position.x && options[3].position.x == box[3].transform.position.x && options[4].position.x == box[4].transform.position.x && options[5].position.x == box[5].transform.position.x)
+        {
+            Debug.Log("success");
+            CheckResults();
+        }
+
+
 
     }
+
+
     public void CheckResults()
     {
         Debug.Log("check");
-        for (int i = 0; i < 6; i++)
-        {
-            //    if (options[i].position == options[i].correcttrans.position)
-            {
-                //        scenes[2].setactive(false);
-                //        scenes[3].setactive(true);
-                //        debug.log("win");
-            }
-        }
+
 
         if (options[0].position == box[0].transform.position && options[1].position == box[1].transform.position && options[2].position == box[2].transform.position && options[3].position == box[3].transform.position && options[4].position == box[4].transform.position && options[5].position == box[5].transform.position)
         {
@@ -41,16 +42,13 @@ public class PlanningManager : MonoBehaviour
             Scenes[3].SetActive(true);
             Debug.Log("win");
         }
+        else
+        {
+            Debug.Log("lost");
 
-        //else 
-
-        //{
-        //    Debug.Log("lost");
-
-        //    wrongSign.SetActive(true);
-        //    Invoke("ReloadGame", 1f);
-        //}
-
+            wrongSign.SetActive(true);
+            Invoke("ReloadGame", 1f);
+        }
     }
     public void ReloadGame()
     {
