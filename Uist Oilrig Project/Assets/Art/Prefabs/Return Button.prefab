@@ -143,6 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d35acac03d56546958f0efe2a78545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstPerson: 0
   anim: {fileID: 0}
 --- !u!1 &1375350881496755990
 GameObject:
@@ -221,6 +222,6 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Minigame Select
+  m_Text: 'Operation Select
 
 '

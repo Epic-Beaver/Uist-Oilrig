@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0d35acac03d56546958f0efe2a78545, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstPerson: 0
   anim: {fileID: 754892229}
 --- !u!4 &33377946
 Transform:
@@ -430,7 +431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Boat Removal Minigame
+  m_Text: 'Boat Removal Operation
 
     (Reverse Installation)'
 --- !u!222 &265437752
@@ -1285,7 +1286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Crane Minigame
+  m_Text: 'Crane Operation
 
     (Topside Removal)'
 --- !u!222 &1422143642
@@ -1365,7 +1366,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Planning Stage Minigame
+  m_Text: Planning Stage
 --- !u!222 &1804614625
 CanvasRenderer:
   m_ObjectHideFlags: 0
