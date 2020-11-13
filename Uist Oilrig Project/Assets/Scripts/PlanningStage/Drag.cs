@@ -41,8 +41,8 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
 
         transform.position = eventData.position;
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
-        Debug.Log(eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition);
+     //   Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
+      //  Debug.Log(eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition);
 
     }
 
