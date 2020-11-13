@@ -9,6 +9,8 @@ public class WeatherControler : MonoBehaviour
     public static bool goodWeather;
     public bool isGoodWeather = true;
 
+    public bool isRaining;
+
     public bool allowFog = true;
     private ParticleSystem ps;
     public float fogDensity = 0.1f;
@@ -32,9 +34,9 @@ public class WeatherControler : MonoBehaviour
     }
 
 
-    void updateWeather()
+    public void updateWeather()
     {
-        if (goodWeather)
+        if (isGoodWeather)
         {
             setGoodWeather();
         }
@@ -49,8 +51,19 @@ public class WeatherControler : MonoBehaviour
         RenderSettings.fogDensity = fogDensity;
         RenderSettings.fog = allowFog;
         var emission = ps.emission;
-        emission.enabled = true;
         RenderSettings.skybox = badSky;
+
+        if (isRaining)
+        {
+            ps.Play();
+            emission.enabled = true;
+
+        }
+        else
+        {
+            ps.Clear();
+            emission.enabled = false;
+        }
     }
 
     void setGoodWeather()
