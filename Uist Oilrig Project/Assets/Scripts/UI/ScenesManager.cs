@@ -139,6 +139,10 @@ public class ScenesManager : MonoBehaviour
     //{
         //StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     //}
+    public void SceneByName(string levelName)
+    {
+        StartCoroutine(LoadLevel(levelName));
+    }
 
     IEnumerator LoadLevel(int levelIndex)
     {
