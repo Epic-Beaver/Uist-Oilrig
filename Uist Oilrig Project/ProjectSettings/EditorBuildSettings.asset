@@ -42,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BuildScenes/Minigame4.unity
     guid: 56cb99bb830100f43894e935555a8ee0
   - enabled: 1
+    path: Assets/Scenes/Testing/SpinningDecom.unity
+    guid: dfa5f6926c727404481507588715bd65
+  - enabled: 1
     path: Assets/Scenes/Testing/MinigameSelectDev.unity
     guid: e026bedfe12b7b04c849c3aa32081288
   m_configObjects: {}
