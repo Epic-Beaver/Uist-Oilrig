@@ -8,6 +8,9 @@ public class Ship : MonoBehaviour
     public GameObject mainCamera;
     public GameObject cameraLeft;
     public GameObject cameraFront;
+    public bool isBegin;
+    public GameObject listPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,15 +20,26 @@ public class Ship : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 1)
+        if (isBegin)
         {
-            gameObject.transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
-        } else
-        {
+            if (transform.position.x > 1)
+            {
+                gameObject.transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
+            }
+            else
+            {
 
-            mainCamera.SetActive(false);
-            cameraLeft.SetActive(true);
+                mainCamera.SetActive(false);
+                cameraLeft.SetActive(true);
+            }
+
         }
-            
+
+    }
+
+    public void StartMove()
+    {
+        isBegin = true;
+        listPanel.SetActive(false);
     }
 }
