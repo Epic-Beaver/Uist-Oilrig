@@ -6,6 +6,12 @@ using UnityEngine.UI;
 public class MouseOverText : MonoBehaviour
 {
     public string information = "";
+    [TextArea]
+    public string requirements = "";
+
+    public int height;
+    private float defHeight;
+    public float deltaHeight = 15;
 
     private Image img;
     private Text uiText;
@@ -17,6 +23,7 @@ public class MouseOverText : MonoBehaviour
         img = this.GetComponentInChildren<Image>();
         uiText = this.GetComponentInChildren<Text>();
         last = FindObjectOfType<ClickRemove>();
+        defHeight = img.rectTransform.sizeDelta.y;
     }
 
     // Update is called once per frame
@@ -26,12 +33,15 @@ public class MouseOverText : MonoBehaviour
         {
             img.enabled = false;
             information = "";
+            requirements = "";
         } else
         {
             img.enabled = true;
+            img.rectTransform.sizeDelta = new Vector2(img.rectTransform.sizeDelta.x, defHeight + (deltaHeight * height));
+            Debug.Log("Updating");
         }
 
-        uiText.text = information;
+        uiText.text = information + "\n\n" + requirements;
         transform.position = Input.mousePosition;
     }
 
@@ -39,5 +49,11 @@ public class MouseOverText : MonoBehaviour
     {
         this.information = information;
         this.last = last;
+    }
+
+    public void updatePrerequisites(string requirements, int height)
+    {
+        this.requirements = requirements;
+        this.height = height;
     }
 }

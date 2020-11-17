@@ -16,6 +16,11 @@ public class ClickRemove : MonoBehaviour
     public MouseOverText mouseOver;
     public bool hover;
 
+    [TextArea]
+    public string description;
+
+    public FailureTab failTab;
+
     private MeshRenderer mesh;
 
     private Animator anim;
@@ -38,9 +43,8 @@ public class ClickRemove : MonoBehaviour
     {
         hover = true;
         mouseOver.updateInfo(name, this);
+        mouseOver.updatePrerequisites(getRequirements(), preRequisites.Length);
         mesh.material = highlightMat;
-
-        //MouseOverText
     }
 
     private void OnMouseExit()
@@ -57,11 +61,40 @@ public class ClickRemove : MonoBehaviour
             {
                 //Cannot remove, inform player.
 
+                failTab.fail(this);
+
                 return;
             }
         }
 
         anim.SetTrigger("Remove");
         removed = true;
+    }
+
+    public string getRequirements()
+    {
+        string requirements = "Prerequisites:\n";
+
+        bool none = true;
+
+        foreach (ClickRemove cr in preRequisites)
+        {
+            if (cr.removed)
+            {
+                requirements += "✓ " + cr.name + "\n";
+            }
+            else
+            {
+                requirements += "- " + cr.name + "\n";
+            }
+            none = false;
+        }
+
+        if (none)
+        {
+            requirements += "[None]";
+        }
+
+        return requirements;
     }
 }
