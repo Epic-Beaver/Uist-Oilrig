@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ClickRemove : MonoBehaviour
 {
-    public Material regularMat;
     public Material highlightMat;
 
     public ClickRemove[] preRequisites;
@@ -21,16 +20,24 @@ public class ClickRemove : MonoBehaviour
 
     public FailureTab failTab;
 
-    private MeshRenderer mesh;
 
     private Animator anim;
+
+    private MeshRenderer[] childMeshes;
+    private Material[] childMats;
+
     // Start is called before the first frame update
     void Start()
     {
-        mesh = this.GetComponent<MeshRenderer>();
         anim = this.GetComponent<Animator>();
 
-        mesh.material = regularMat;
+        childMeshes = GetComponentsInChildren<MeshRenderer>();
+        childMats = new Material[childMeshes.Length];
+
+        for(int i = 0; i < childMeshes.Length; i++)
+        {
+            childMats[i] = childMeshes[i].material;
+        }
     }
 
     // Update is called once per frame
@@ -44,13 +51,29 @@ public class ClickRemove : MonoBehaviour
         hover = true;
         mouseOver.updateInfo(name, this);
         mouseOver.updatePrerequisites(getRequirements(), preRequisites.Length);
-        mesh.material = highlightMat;
+        highlight();
+    }
+
+    private void highlight()
+    {
+        for(int i = 0; i < childMeshes.Length; i++)
+        {
+            childMeshes[i].material = highlightMat;
+        }
     }
 
     private void OnMouseExit()
     {
         hover = false;
-        mesh.material = regularMat;
+        unHighlight();
+    }
+
+    private void unHighlight()
+    {
+        for (int i = 0; i < childMeshes.Length; i++)
+        {
+            childMeshes[i].material = childMats[i];
+        }
     }
 
     private void OnMouseDown()

@@ -12,11 +12,12 @@ public class OilRigComponentChecker : MonoBehaviour
     public Text[] textFields;
     public GameObject endScreen;
 
-    private List<GameObject> pieces;
+    private ClickRemove[] pieces;
     // Start is called before the first frame update
     void Start()
     {
-        pieces = AllChilds(gameObject);
+
+        pieces = GetComponentsInChildren<ClickRemove>();
 
     }
 
@@ -26,9 +27,9 @@ public class OilRigComponentChecker : MonoBehaviour
         if(timeToCheck)
         {
             bool removed = true;
-            foreach (GameObject currentPiece in pieces)
+            foreach (ClickRemove currentPiece in pieces)
             {
-                if (!(currentPiece.GetComponent<ClickRemove>()).removed)
+                if (!currentPiece.removed)
                 {
                     removed = false;
                 }
