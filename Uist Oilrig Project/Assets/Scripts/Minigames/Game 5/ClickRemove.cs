@@ -60,7 +60,7 @@ public class ClickRemove : MonoBehaviour
             if(!pre.removed)
             {
                 //Cannot remove, inform player.
-
+                OilRigComponentChecker.badTries++;
                 failTab.fail(this);
 
                 return;
@@ -69,6 +69,7 @@ public class ClickRemove : MonoBehaviour
 
         anim.SetTrigger("Remove");
         removed = true;
+        OilRigComponentChecker.timeToCheck = true;
     }
 
     public string getRequirements()
