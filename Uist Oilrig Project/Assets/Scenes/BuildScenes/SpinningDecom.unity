@@ -510,11 +510,11 @@ RectTransform:
   - {fileID: 177552318}
   - {fileID: 457176156}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -1.4}
+  m_AnchoredPosition: {x: -0, y: -1.4}
   m_SizeDelta: {x: 1520.0771, y: 789.1519}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &204457735
@@ -2851,7 +2851,7 @@ Animator:
   m_GameObject: {fileID: 1205601724}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5704dc113614adb4a99d885fba602e91, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0149a3b931888c04fbbb12a0dbfc875c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3441,8 +3441,8 @@ RectTransform:
   - {fileID: 1619066324}
   - {fileID: 1205601725}
   - {fileID: 127039382}
-  - {fileID: 1772661149}
   - {fileID: 204457734}
+  - {fileID: 1772661149}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3610,7 +3610,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Minigame4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1750857083
@@ -3769,7 +3769,7 @@ PrefabInstance:
     - target: {fileID: 2389414651740270442, guid: fb5c4387f1c83e14fae85ccad39598cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2389414651740270442, guid: fb5c4387f1c83e14fae85ccad39598cc,
         type: 3}

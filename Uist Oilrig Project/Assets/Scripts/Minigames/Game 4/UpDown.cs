@@ -5,6 +5,8 @@ using UnityEngine;
 public class UpDown : MonoBehaviour
 {
 
+    public GameObject end;
+
     public static float moveSpeed = 0.06f;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +22,10 @@ public class UpDown : MonoBehaviour
             if (transform.position.y < 3.4f)
             {
                 transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
+            } else
+            {
+                end.SetActive(true);
+                //Ending goes here.
             }
         }
         if (Input.GetAxisRaw("Vertical") < 0)
