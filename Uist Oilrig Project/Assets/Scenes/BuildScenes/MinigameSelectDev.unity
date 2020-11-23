@@ -474,7 +474,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1863986272}
+  m_TargetGraphic: {fileID: 54089226}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -748,7 +748,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1863986272}
+  m_TargetGraphic: {fileID: 274725149}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1334,7 +1334,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &699404555
 GameObject:
@@ -1717,7 +1717,7 @@ RectTransform:
   - {fileID: 49566389}
   - {fileID: 754892230}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1834,10 +1834,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   information:
   - Please select a scene before pressing "begin"
-  - This is information on the first game
-  - This information will inform you of the ramifications of the second game, and
+  - 'This is information on the first game
+
+
+    Controls:
+
+    - Left Click on buttons
+    to interact with them.
+
+    - Drag and drop values into the correct order.'
+  - 'This information will inform you of the ramifications of the second game, and
     how to play it
-  - The information about the third game will be placed here during Alpha.
+
+    Controls:
+
+
+    - Hover over modules to view information
+    about them
+
+    - Left click on a module to remove it
+
+    - Hold right click
+    to rotate the helicopter around the rig for a better view'
+  - 'The information about the third game will be placed here during Alpha.
+
+
+    Controls:
+
+    -
+    Left click to interact with the objects on the menu.
+
+    - Complete all the
+    tasks before beginning the reverse installation.
+
+    - Maneuver the boat with
+    W, A, S and D to connect up, and then raise the platform itself.'
   sceneNames:
   - '[Null]'
   - PlanningStage
@@ -2079,7 +2110,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1863986272}
+  m_TargetGraphic: {fileID: 1169842274}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -3293,7 +3324,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2023856323
 MonoBehaviour:
