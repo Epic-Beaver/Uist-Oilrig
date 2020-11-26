@@ -13,6 +13,8 @@ public class ArcballScript : MonoBehaviour
 
     public float momentum = 0;
 
+    public float maxVelocity;
+
     // The mouse cursor's position during the last frame
     Vector3 last = new Vector3();
 
