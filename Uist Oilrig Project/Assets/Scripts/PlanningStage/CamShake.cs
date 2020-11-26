@@ -54,10 +54,20 @@ public class CamShake : MonoBehaviour
     //}
 
     public Animator camAnim;
+    private void Start()
+    {
+        Debug.Log("tureidle");
+        camAnim = GetComponent<Animator>();
+        camAnim.SetTrigger("idle");
+
+
+    }
     public void camshake()
     {
+        Debug.Log("tureshake");
         camAnim.SetTrigger("shake");
+        camAnim.SetTrigger("idle");
     }
-    
-    
+
+
 }
