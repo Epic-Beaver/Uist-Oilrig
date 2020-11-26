@@ -2226,6 +2226,7 @@ MonoBehaviour:
   haloHeight: 0.7
   drag: 0.08
   momentum: 0.1
+  maxMomentum: 10
   target: {x: 0, y: 0, z: 0}
 --- !u!1 &929429303
 GameObject:

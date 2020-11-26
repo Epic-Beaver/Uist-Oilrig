@@ -13,7 +13,7 @@ public class ArcballScript : MonoBehaviour
 
     public float momentum = 0;
 
-    public float maxVelocity;
+    public float maxMomentum;
 
     // The mouse cursor's position during the last frame
     Vector3 last = new Vector3();
@@ -82,7 +82,13 @@ public class ArcballScript : MonoBehaviour
         {
             momentum += drag;
         }
-
+        if (momentum > maxMomentum)
+        {
+            momentum = maxMomentum;
+        }else if (momentum < ((-1) * maxMomentum))
+        {
+            momentum = (-1) * maxMomentum;
+        }
         moveCamera();
     }
 
