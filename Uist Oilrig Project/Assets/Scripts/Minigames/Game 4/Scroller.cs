@@ -7,11 +7,13 @@ using UnityEngine.EventSystems;
 public class Scroller : MonoBehaviour, IBeginDragHandler, IEndDragHandler
 {
     private ScrollRect scrollRect;
-    private float[] pageArray = new float[] { 0, 0.25f, 0.5f, 0.75f, 1 };
-    private float targetHorizontalPosition = 0;
-    private bool isDraging = false;
+    public float[] pageArray = new float[] { 0, 0.25f, 0.5f, 0.75f, 1 };
+    public float targetHorizontalPosition = 0;
+    public bool isDraging = false;
 
     public static float speed = 6;
+
+    public float horNormPos = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +27,10 @@ public class Scroller : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         if(!isDraging)
         {
             scrollRect.horizontalNormalizedPosition = Mathf.Lerp(scrollRect.horizontalNormalizedPosition, targetHorizontalPosition, Time.deltaTime * speed);
+            //scrollRect.horizontalNormalizedPosition = 0.5f;
         }
+
+        horNormPos = scrollRect.horizontalNormalizedPosition;
         
     }
 
@@ -49,6 +54,7 @@ public class Scroller : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 index = i;
             }
         }
+
         targetHorizontalPosition = pageArray[index];
     }
 
