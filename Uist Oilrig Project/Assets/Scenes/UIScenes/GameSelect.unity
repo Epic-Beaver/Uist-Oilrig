@@ -763,7 +763,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &701452033
 RectTransform:
   m_ObjectHideFlags: 0
@@ -861,7 +861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 224, y: 167}
+  m_AnchoredPosition: {x: 316.3, y: 167}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &731689559
@@ -1086,8 +1086,8 @@ GameObject:
   - component: {fileID: 803295556}
   - component: {fileID: 803295555}
   - component: {fileID: 803295554}
-  - component: {fileID: 803295553}
   - component: {fileID: 803295552}
+  - component: {fileID: 803295553}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 803295550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cffc4936c2854f24ebf3817cb420eae5, type: 3}
+  m_Script: {fileID: 11500000, guid: 45e1ac4154f18e54ba02a43258102a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &803295554
@@ -3038,7 +3038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1578818951}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1936527456
