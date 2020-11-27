@@ -26,6 +26,7 @@ public class LoadScenes : MonoBehaviour, IPointerEnterHandler
     //鼠标悬停时播放音效
     public void OnPointerEnter(PointerEventData eventData)
     {
+
         Button button = this.gameObject.GetComponent<Button>();
         if (button == null)
             return;
@@ -36,17 +37,17 @@ public class LoadScenes : MonoBehaviour, IPointerEnterHandler
 
     public void LoadStartScene()
     {
-        SceneManager.LoadScene("OilRigStart");
+        SceneManager.LoadScene("Start");
     }
 
     public void LoadCreditsScene()
     {
-        SceneManager.LoadScene("OilRigCredits");
+        SceneManager.LoadScene("Credits");
     }
 
     public void LoadLevelScene()
     {
-        SceneManager.LoadScene("OilRigLevelSelect");
+        SceneManager.LoadScene("GameSelect");
     }
 
     public void LoadBackScene(string name)

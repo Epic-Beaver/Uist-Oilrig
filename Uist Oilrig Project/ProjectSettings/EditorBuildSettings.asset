@@ -50,4 +50,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BuildScenes/Minigame4.unity
     guid: aab2596a17a6d044e98eca09a7748dc7
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/Start.unity
+    guid: 31a20ee3f9d523e4884b8fb561d1e7d9
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/GameSelect.unity
+    guid: 3de3a8e2ac495374cb6bb270fa29b12d
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/Planning.unity
+    guid: 5bd95ae9bc2766140ae586c00927cf0f
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/Installation.unity
+    guid: c7c35b2cacbb0f548b7e56f7bd308edd
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/Credits.unity
+    guid: 97aaa914883097548a6d4c8da1536c35
+  - enabled: 1
+    path: Assets/Scenes/UIScenes/Decomissioning.unity
+    guid: 0e66768c6ba35a841a2ee79e3b8e9363
   m_configObjects: {}
