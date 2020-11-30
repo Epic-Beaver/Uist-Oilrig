@@ -23,10 +23,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Testing/OilRigCharacterSelect.unity
     guid: b5603142b7d4b2447a55ac9eeb725ff2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BuildScenes/BuildStart.unity
     guid: 18a43a73269e29145b544e55a2968f83
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BuildScenes/MinigameSelectDev.unity
     guid: e026bedfe12b7b04c849c3aa32081288
   - enabled: 0
@@ -38,16 +38,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BuildScenes/Minigame2.unity
     guid: 62776b80894346c44a8031b54d6ee0ad
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BuildScenes/PlanningStage.unity
     guid: 8ad084a65e7e2254aa3bf8a803fa5557
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BuildScenes/SpinningDecom.unity
     guid: dfa5f6926c727404481507588715bd65
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BuildScenes/Minigame4.unity
     guid: aab2596a17a6d044e98eca09a7748dc7
   - enabled: 1

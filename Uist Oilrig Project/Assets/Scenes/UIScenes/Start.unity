@@ -160,7 +160,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.5, y: -113}
-  m_SizeDelta: {x: 140, y: 50}
+  m_SizeDelta: {x: 169.1521, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31757625
 MonoBehaviour:
@@ -1240,6 +1240,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 742152138}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 742152139}
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

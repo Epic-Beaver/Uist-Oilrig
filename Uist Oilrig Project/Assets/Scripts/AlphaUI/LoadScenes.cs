@@ -55,5 +55,9 @@ public class LoadScenes : MonoBehaviour, IPointerEnterHandler
         SceneManager.LoadScene(name);
     }
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 
 }

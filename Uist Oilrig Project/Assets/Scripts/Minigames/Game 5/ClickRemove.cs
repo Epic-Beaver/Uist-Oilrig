@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClickRemove : MonoBehaviour
 {
+    public float speed;
     public Material highlightMat;
 
     public ClickRemove[] preRequisites;
@@ -26,6 +27,8 @@ public class ClickRemove : MonoBehaviour
     private MeshRenderer[] childMeshes;
     private Material[] childMats;
 
+    public GameObject removeEffect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,9 +44,12 @@ public class ClickRemove : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        
+        if (removed)
+        {
+            transform.position = transform.position + Vector3.up * speed;
+        }
     }
 
     private void OnMouseEnter()
@@ -90,9 +96,10 @@ public class ClickRemove : MonoBehaviour
             }
         }
 
-        anim.SetTrigger("Remove");
+        //anim.SetTrigger("Remove");
         removed = true;
         OilRigComponentChecker.timeToCheck = true;
+        //GameObject.Instantiate(removeEffect, transform.position, transform.rotation);
     }
 
     public string getRequirements()
