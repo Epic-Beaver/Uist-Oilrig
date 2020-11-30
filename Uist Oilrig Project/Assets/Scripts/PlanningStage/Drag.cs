@@ -38,7 +38,6 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
 
     public void OnDrag(PointerEventData eventData)
     {
-
         transform.position = eventData.position;
         rectTransform.anchoredPosition += eventData.delta/ canvas.scaleFactor;
      //   Debug.Log(eventData.pointerCurrentRaycast.gameObject.name);
