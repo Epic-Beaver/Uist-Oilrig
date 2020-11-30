@@ -22,7 +22,7 @@ public class Lift : MonoBehaviour
         {
             platform.transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
         }
-        if (Input.GetAxisRaw("Vertical") < 0)
+        if (ButtonDown.instance.isDown)
         {
             if (platform.transform.position.y > 4.64f)
             {
@@ -34,7 +34,7 @@ public class Lift : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //print(transform.position.y);
-        if (Input.GetAxisRaw("Vertical") > 0)
+        if (ButtonUp.instance.isUp)
         {
             isCollid = 1;
             //if (transform.position.y < 3.4f)
@@ -45,7 +45,8 @@ public class Lift : MonoBehaviour
 
     }
     private void OnCollisionExit(Collision collision)
-    {print("finish");
+    {
+        //print("finish");
         isCollid = 0;
     }
 }

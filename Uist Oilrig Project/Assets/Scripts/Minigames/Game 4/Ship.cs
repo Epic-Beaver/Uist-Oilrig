@@ -10,11 +10,12 @@ public class Ship : MonoBehaviour
     public GameObject cameraFront;
     public bool isBegin;
     public GameObject listPanel;
+    public GameObject controller;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        controller.SetActive(false);
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class Ship : MonoBehaviour
 
                 mainCamera.SetActive(false);
                 cameraLeft.SetActive(true);
+                controller.SetActive(true);
             }
 
         }

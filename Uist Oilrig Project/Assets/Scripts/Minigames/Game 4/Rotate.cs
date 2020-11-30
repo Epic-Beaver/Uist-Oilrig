@@ -14,15 +14,19 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxisRaw("Vertical") > 0)
+        if (ButtonUp.instance.isUp)
         {
-            if (transform.rotation.x > -0.4f)
+            if(UpDown.instance.liftUp)
             {
-                transform.Rotate(-rotateSpeed * Time.deltaTime, transform.rotation.y, transform.rotation.z);
+                if (transform.rotation.x > -0.4f)
+                {
+                    transform.Rotate(-rotateSpeed * Time.deltaTime, transform.rotation.y, transform.rotation.z);
+                }
             }
             
+            
         }
-        if (Input.GetAxisRaw("Vertical") < 0)
+        if (ButtonDown.instance.isDown)
         {
             if (transform.rotation.x < 0.35f)
             {
