@@ -12,16 +12,8 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
     private CanvasGroup canvasGroup;
     [SerializeField]
     private static Transform correctTrans;
-
-    //public static Vector2 initialPosition;
-
-
-    //void Start()
-    //{  
-    //    initialPosition = rectTransform.anchoredPosition;
-
-    //}
-
+    public PlanningManager1 planningManager;
+   
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
@@ -47,7 +39,14 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
 
     public void OnEndDrag(PointerEventData eventData)
     {
-
+        for(int i = 0; i < 6; i++)
+        {
+            if(planningManager.options[i].position.x!= planningManager.box[i].transform.position.x)
+            {
+                planningManager.options[i].position = planningManager.initialPosition [i].position;
+                
+            }
+        }
         //      transform.position = eventData.pointerCurrentRaycast.gameObject.transform.position;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
 

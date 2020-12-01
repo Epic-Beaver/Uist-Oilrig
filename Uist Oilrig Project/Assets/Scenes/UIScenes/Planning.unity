@@ -758,6 +758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &77796721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2017,6 +2018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &293119050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6573,6 +6575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &1409550023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8743,6 +8746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &1792500554
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9093,6 +9097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &1845269486
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9484,6 +9489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1484598507}
+  planningManager: {fileID: 1465145260}
 --- !u!61 &1879266277
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -7,7 +7,7 @@ public class PlanningManager1 : MonoBehaviour
 {
     public GameObject[] Icons, Scenes, box;
     [SerializeField]
-    private Transform[] options, initialPosition;
+    public Transform[] options, initialPosition;
     [SerializeField]
     private GameObject wrongSign;
     public CamShake CamShake;
