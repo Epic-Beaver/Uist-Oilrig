@@ -11,11 +11,13 @@ public class Ship : MonoBehaviour
     public bool isBegin;
     public GameObject listPanel;
     public GameObject controller;
+    public AudioSource shipAudio;
 
     // Start is called before the first frame update
     void Start()
     {
         controller.SetActive(false);
+        shipAudio = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -26,6 +28,10 @@ public class Ship : MonoBehaviour
             if (transform.position.x > 1)
             {
                 gameObject.transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
+                shipAudio.pitch = 1;
+                //shipAudio.volume = 0.5f;
+                if (!shipAudio.isPlaying)
+                    shipAudio.Play();
             }
             else
             {
@@ -33,6 +39,8 @@ public class Ship : MonoBehaviour
                 mainCamera.SetActive(false);
                 cameraLeft.SetActive(true);
                 controller.SetActive(true);
+                if (shipAudio.isPlaying)
+                    shipAudio.Stop();
             }
 
         }
