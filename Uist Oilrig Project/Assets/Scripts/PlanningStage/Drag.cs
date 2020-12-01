@@ -43,7 +43,7 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
         {
             if(planningManager.options[i].position.x!= planningManager.box[i].transform.position.x)
             {
-                planningManager.options[i].position = planningManager.initialPosition [i].position;
+                planningManager.initialPosition[i].position = planningManager.options[i].position;
                 
             }
         }
