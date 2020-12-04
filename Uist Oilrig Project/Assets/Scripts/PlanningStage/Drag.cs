@@ -39,11 +39,13 @@ public class Drag : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHand
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        for(int i = 0; i < 6; i++)
+       
+        for (int i = 0; i < 6; i++)
         {
             if(planningManager.options[i].position.x!= planningManager.box[i].transform.position.x)
             {
-                planningManager.initialPosition[i].position = planningManager.options[i].position;
+                Debug.Log("successsnapback");
+                planningManager.options[i].position = planningManager.initialPosition[i].position  ;
                 
             }
         }
