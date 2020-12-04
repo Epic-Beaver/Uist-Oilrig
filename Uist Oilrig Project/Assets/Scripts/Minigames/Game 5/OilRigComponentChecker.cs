@@ -8,9 +8,26 @@ public class OilRigComponentChecker : MonoBehaviour
 
     public static bool timeToCheck = true;
     public static int badTries = 0;
+
+    [TextArea]
     public string correctOrder = "";
+
     public Text[] textFields;
     public GameObject endScreen;
+
+    public string specialCharacter = "%";
+
+    [TextArea]
+    public string congratz;
+
+    [TextArea]
+    public string mistakesNone;
+
+    [TextArea]
+    public string mistakesOne;
+
+    [TextArea]
+    public string mistakesMultiple;
 
     private ClickRemove[] pieces;
     // Start is called before the first frame update
@@ -38,21 +55,20 @@ public class OilRigComponentChecker : MonoBehaviour
             if (removed)
             {
                 //do something
-                string congratz = "Congragulations! You managed to solve the correct order!";
                 string mistakes = "";
                 if (badTries == 0)
                 {
-                    mistakes = "WOW! You made no mistakes with this run through!";
+                    mistakes = mistakesNone;
                 }
                 else if (badTries == 1)
                 {
-                    mistakes = "You made " + badTries + " mistake, try run through it again to get that down to 0!";
+                    mistakes = mistakesOne;
                 }
                 else
                 {
-                    mistakes = "You made " + badTries + " mistakes, try run through it again to get that down!";
+                    mistakes = mistakesMultiple.Replace(specialCharacter,badTries.ToString());
                 }
-                string order = "The correct order for the pieces are " + correctOrder;
+                string order = correctOrder;
 
                 endScreen.SetActive(true);
 
