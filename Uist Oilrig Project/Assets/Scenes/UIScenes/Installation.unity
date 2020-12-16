@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -7166,9 +7166,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Before the start of the demolition work, as a project manager, you need
+  m_Text: 'Before the start of the demolition work, as a project manager, you need
     to confirm with team members whether the various parts of the work are going
     well.
+
+
+    Instructions:
+
+    Go through a list of processes and start them
+    before returning to the "complete" button. Then use the on screen controls to
+    lift the rig.'
 --- !u!222 &723720210
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8955,7 +8962,7 @@ MonoBehaviour:
   fader: {fileID: 943598704}
   desc: {fileID: 723720209}
   speed: 0.5
-  totalTime: 5
+  totalTime: 7
 --- !u!114 &943598704
 MonoBehaviour:
   m_ObjectHideFlags: 0

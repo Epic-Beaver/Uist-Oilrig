@@ -1,18 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VolumeBar : MonoBehaviour
 {
-    public int volumeMod = 20;
+    float volume = 1f;
     private void Start()
     {
-        print("STARTING VOLUME " + AudioListener.volume + "\n");
+            volume = PlayerPrefs.GetFloat("volume", 1f);
+        AudioListener.volume = volume;
+        Slider slide = GetComponent("Slider") as Slider;
+        slide.value = volume;
     }
     public void changeVolume(float sliderValue)
     {
-        print("VOLUME " + sliderValue + "\n");
         AudioListener.volume = sliderValue;
+        volume = sliderValue;
+    }
+
+    private void OnDestroy()
+    {
+        PlayerPrefs.SetFloat("volume", volume);
+        Debug.Log("volume: " + volume);
     }
 
 }

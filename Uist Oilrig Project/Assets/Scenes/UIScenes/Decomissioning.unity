@@ -379,7 +379,7 @@ PrefabInstance:
     - target: {fileID: 1375350880366546690, guid: a2a99b86bd9b65e40aefe20abd08753a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1375350880366546690, guid: a2a99b86bd9b65e40aefe20abd08753a,
         type: 3}
@@ -1048,7 +1048,7 @@ RectTransform:
   - {fileID: 177552318}
   - {fileID: 457176156}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1223,7 +1223,7 @@ RectTransform:
   - {fileID: 165821622}
   - {fileID: 1630515271}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1630,7 +1630,7 @@ RectTransform:
   m_Children:
   - {fileID: 1945264231}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1652,7 +1652,7 @@ MonoBehaviour:
   fader: {fileID: 367935707}
   desc: {fileID: 1945264232}
   speed: 0.5
-  totalTime: 5
+  totalTime: 7
 --- !u!114 &367935707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2341,6 +2341,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565205934}
+  m_CullTransparentMesh: 0
+--- !u!1 &586693625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 586693626}
+  - component: {fileID: 586693628}
+  - component: {fileID: 586693627}
+  m_Layer: 5
+  m_Name: Camera Instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &586693626
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586693625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1659000469}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -734, y: -481}
+  m_SizeDelta: {x: 318.2627, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &586693627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586693625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e4115cfc6f8d4e54999008ec59b44d33, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &586693628
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586693625}
   m_CullTransparentMesh: 0
 --- !u!1 &609648482 stripped
 GameObject:
@@ -4385,7 +4459,7 @@ RectTransform:
   - {fileID: 1123025504}
   - {fileID: 631018894}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -5047,7 +5121,7 @@ Transform:
   m_Children:
   - {fileID: 510480184}
   m_Father: {fileID: 1659000469}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1619066325
 MonoBehaviour:
@@ -5395,6 +5469,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 586693626}
   - {fileID: 141547574}
   - {fileID: 1619066324}
   - {fileID: 1205601725}
@@ -5891,7 +5966,7 @@ PrefabInstance:
     - target: {fileID: 2389414651740270442, guid: fb5c4387f1c83e14fae85ccad39598cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2389414651740270442, guid: fb5c4387f1c83e14fae85ccad39598cc,
         type: 3}
@@ -6275,11 +6350,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The removal order of the topsides is very important. You need to be responsible
-    for regulating the workers to remove the work in the established order.
-
-    Before
-    you start, you decide to prepare again. '
+  m_Text: "The removal order of the topsides is very important. You need to be responsible
+    for regulating the workers to remove the work in the established order.\nBefore
+    you start, you decide to prepare again. \n\nControls:\nUse the left mouse button
+    to remove the parts in the correct order, and hold down the right mouse button
+    and drag to move the camera"
 --- !u!222 &1945264233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9208,7 +9283,7 @@ PrefabInstance:
     - target: {fileID: 8997980488926920100, guid: 520fbb617bd4c344787d30fef3e4eead,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8997980488926920100, guid: 520fbb617bd4c344787d30fef3e4eead,
         type: 3}
